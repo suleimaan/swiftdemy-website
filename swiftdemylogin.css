@@ -10,6 +10,10 @@ color: white
 h1, p {
 text-align: center;
 }
+img {
+  width: 40%;
+  height:100px;
+}
 form {
   width: 60vw;
   max-width: 500px;
