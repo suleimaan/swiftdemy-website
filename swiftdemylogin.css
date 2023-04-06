@@ -13,12 +13,13 @@ text-align: center;
 img {
   width: 40%;
   height:100px;
+  margin-left: 350px;
 }
 form {
-  width: 60vw;
+  width: 100vw;
   max-width: 500px;
   min-width: 300px;
-  margin: 0 auto;
+  margin-top: -150px;
 }
 
 fieldset{
