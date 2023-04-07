@@ -12,7 +12,7 @@ font-size: 16px;
 color: white
 }
 
-@media(max-width: 768px){
+@media screen (max-width: 768px){
 body{
   width: 50%;
     }
@@ -23,6 +23,12 @@ header{
 	height: 80px;
 	margin-bottom: 0px;
 }
+
+@media screen(max-width: 768px){
+header {
+  width: 100%;
+    }
+  }
 
 #logo img{
 	width: 50%;
@@ -48,8 +54,8 @@ margin-bottom: 50px;
 	margin-right: 200px;
 	}
 	
-	li{
-	list-style: none;
+li{
+list-style: none;
 }	
 
 .navlink{
@@ -60,8 +66,6 @@ margin-bottom: 50px;
 .logo{
  width: 60wv;		
 	}
-	  
-
 
 img {
 	width: 100%;
@@ -90,7 +94,7 @@ img {
 @media screen (max-width: 768px){
 	input[type="submit"]{
         margin-left: 100px;
-	background-color: yellow;
+	background-color: red;
 	}
   }
 
@@ -144,7 +148,7 @@ line-height: 1.2;
 }
 @media screen (max-width: 768px){
 	.feature-item{
-		margin-left: -10px;
+		margin-left: 10px;
 	}
   }
 .feature-info {
