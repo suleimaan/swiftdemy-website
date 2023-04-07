@@ -16,7 +16,7 @@ color: white
 body{
   width: 50%;
     }
-  }
+  
 
 header{
 	background-color: #ddd;
@@ -28,7 +28,7 @@ header{
 header {
   width: 100%;
     }
-  }
+  
 
 #logo img{
 	width: 50%;
@@ -96,7 +96,7 @@ img {
         margin-left: 100px;
 	background-color: red;
 	}
-  }
+  
 
 #features{
 	padding: 5rem 0;
@@ -107,13 +107,13 @@ img {
 	margin: 0 auto;
 }
 
-@media screen (max-width: 600px){
+@media screen (max-width: 768px){
 	.containers{
 		width: 50%;
 		display: flex;
 		flex-direction: column;
 	}
-  }
+  
 
 
 .features-top, .features-containers {
@@ -148,9 +148,9 @@ line-height: 1.2;
 }
 @media screen (max-width: 768px){
 	.feature-item{
-		margin-left: 10px;
+		margin-left: -10px;
 	}
-  }
+  
 .feature-info {
 	margin-left: 40px;
 	margin-bottom: 20px;
