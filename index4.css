@@ -12,12 +12,12 @@ font-size: 16px;
 color: white
 }
 
-.container{
+/** .container{
 	display: grid;
 	grid-template-columns: repeat( 3, 1fr);
 	grid-template-rows: auto;
 	grid-gap: 20px;
-}
+} **/
 
 #navbar {
 	background-color: #ddd;
@@ -28,7 +28,7 @@ color: white
 	width: 100vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 	.container {
 		grid-template-columns: repeat (2, 1fr);
 	}
@@ -52,9 +52,9 @@ color: white
 }
 
 /* Add a black background color to the top navigation */
-.topnav {
+/* .topnav {
   overflow: hidden;
-}
+} */
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -80,7 +80,8 @@ color: white
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. */
+/*This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
@@ -106,4 +107,40 @@ color: white
 .btn1{
 	width: 10%;
 	height: 50px;
+}
+
+
+/*the hero*/
+.img2 {
+	width: 100%;
+	display: block;
+	height: 600px;
+}
+.hero {
+  margin-top: -350px;
+  margin-bottom: 130px;
+  margin-left: 30px;  
+}
+
+.hero input {
+  background-color: orange;
+	margin:30px 200px;
+	text-align: center;
+	width: 30%;
+	min-width: 300px;
+	height: 3em;
+	font-size: 1em;
+	font-weight: bold;
+	border-color:black;	
+}
+
+@media screen and (max-width: 600px) {
+ .hero input {
+	margin:30px 200px 30px 40px;
+    background-color: red;	
+ }
+ .hero {
+	 margin-top: -450px;
+ }
+  }
 }
