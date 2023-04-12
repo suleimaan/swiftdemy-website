@@ -188,19 +188,47 @@ color: white
 	margin-bottom: 20px;
 }
 .feature-info h3 {
-  margin-top: -35px;
+  margin-top: -40px;
   font-size: 20px;  
 }
 
 .fa-solid{
 	color:darkorange;
-	font-size: 30px;
+	font-size: 35px;
 }
 
-.header2{
-  margin-bottom: 20px;
+/*how it works*/
+ #head2{
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1,5rem;
+  color: darkorange;
+  margin-top: 50px;
+  margin-left:200px;
+  text-align:center;
   margin-right: 500px;
   margin-left: 530px;
-  color:  darkorange;
-  margin-top: -50px;
+
+ }
+ 
+ #video{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 740px;
+	height: 460px;
+	margin-left: 280px;
+ }
+
+ .btn2{
+ background-color: darkorange;
+	margin:30px 480px;
+	text-align: center;
+	width: 30%;
+	min-width: 300px;
+	height: 3em;
+	font-size: 1em;
+	font-weight: bold;
+	border-color:black;	
 }
