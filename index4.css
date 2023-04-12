@@ -12,12 +12,12 @@ font-size: 16px;
 color: white
 }
 
-.container{
+/* .container{
 	display: grid;
 	grid-template-columns: repeat( 3, 1fr);
 	grid-template-rows: auto;
 	grid-gap: 20px;
-} 
+} */
 
 #navbar {
 	background-color: #ddd;
